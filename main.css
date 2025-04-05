@@ -10,7 +10,6 @@ p {
   font-weight: bold;
   color: #000000;
   background-color: #ffffff;
-  opacity: 0.3;
   margin-left:280px ;
   margin-right:280px;
   /*font-family : police ;*/
@@ -41,6 +40,7 @@ h3{
   font-family : police ;
   border-radius: 9px; 
   padding: 0.5% 4%; 
+  
 }
 ul{
   background-color:  #b91811 ;
@@ -106,6 +106,20 @@ h3.special{
 
 .centrer {
   display: flex ;
-   justify-content: center ;
+  justify-content: center ;
 }
 
+.no-opacity {
+  opacity: 1 !important;
+}
+
+.opacity {
+  opacity: 0.5 !important;
+}
+
+.centrer_canvas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
