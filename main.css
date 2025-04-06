@@ -123,3 +123,11 @@ h3.special{
   align-items: center;
   height: 100%;
 }
+
+.image {
+  width: 15vw; 
+  height: 15vw;
+  object-fit: cover;
+  margin: 1vw;
+  border-radius: 3px;  
+}
