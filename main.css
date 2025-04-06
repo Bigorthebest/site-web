@@ -52,6 +52,7 @@ ul{
 h1{
   font-family : police ;
   color: white;
+  padding-left: 4%;
 }
 .special{
   color : violet ;
@@ -81,7 +82,7 @@ h3.special{
 
 .index {
   background-color: #4f0182;
-  padding: 1% 4%; 
+  padding: 1% 3%; 
   opacity: 0.8;
 }
 
