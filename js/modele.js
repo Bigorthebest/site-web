@@ -38,7 +38,7 @@ if(data) {
     scene.add(model);
     };
 
-let data2 = await loader.loadAsync("objet/crabe_pas_très_bo.glb");
+let data2 = await loader.loadAsync("objet/crabe.glb");
 if(data2) {
     model2 = data2.scene;
     model2.scale.x = 0.3
