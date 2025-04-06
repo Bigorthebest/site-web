@@ -13,6 +13,7 @@ p {
   margin-left:280px ;
   margin-right:280px;
   /*font-family : police ;*/
+  opacity: 0.6 ;
   margin-top : 0 ;
   border-radius: 9px; 
   padding: 1% 4%; 
@@ -64,44 +65,35 @@ h3.special{
 }
 
 .lien-rectangle {
-  display: inline-block;         /* permet de donner une taille et un fond */
+  display: inline-block;
   background-color: black;
   color: white;
   font-family : police ;
   padding: 10px 20px;
-  text-decoration: none;         /* retire le soulignement */
-  border-radius: 9px;            /* coins arrondis (optionnel) */
+  text-decoration: none; 
+  border-radius: 9px;  /*coins arrondis*/
   transition: background-color 0.3s;
 }
 
 .lien-rectangle:hover {
-  background-color: #333;        /* effet au survol */
+  background-color: #333; /* effet au survol */
 }
 
 .index {
-  background-color: #4f0182; /* Fond rouge */
+  background-color: #4f0182;
   padding: 1% 4%; 
-  /* Espace en haut et en bas */
   opacity: 0.8;
-
-  /*display: flex;
-  /*text-align: center; /* Centre les boutons */
 }
 
 .index .lien-rectangle {
-  display: inline-block; /* Pour que les boutons restent alignés */
-  margin: 10px 15px; /* Espacement entre les boutons */
+  display: inline-block;
+  margin: 10px 15px;
 }
 
 .moon {
-  /*position: absolute;*/
   height: 50px;
   float: right;
   margin-right: 10px;
-  /*right: 10px; /* Ajuste la distance par rapport au bord droit */
-  /*top: 50%;
-  transform: translateY(-50%); /* Centre verticalement */
-  /*height: 80px; /* Ajuste la taille selon ton sprite */
 }
 
 .centrer {
